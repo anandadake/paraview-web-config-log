@@ -1,0 +1,7 @@
+2020-11-25 11:44:34,920:INFO:twisted:Site starting on 9000
+2020-11-25 11:44:34,921:INFO:twisted:Starting factory <twisted.web.server.Site instance at 0x000002430F8845C8>
+2020-11-25 11:44:48,526:INFO:twisted:"127.0.0.1" - - [25/Nov/2020:06:14:48 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+2020-11-25 11:44:48,815:INFO:twisted:"127.0.0.1" - - [25/Nov/2020:06:14:48 +0000] "GET /favicon-32x32.png HTTP/1.1" 200 1165 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+2020-11-25 11:44:53,815:INFO:twisted:"127.0.0.1" - - [25/Nov/2020:06:14:53 +0000] "POST /paraview/ HTTP/1.1" 200 171 "http://localhost:9000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+2020-11-25 11:45:02,405:ERROR:root:id not provided in GET request
+2020-11-25 11:45:02,407:INFO:twisted:"127.0.0.1" - - [25/Nov/2020:06:15:02 +0000] "GET /paraview HTTP/1.1" 400 43 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
